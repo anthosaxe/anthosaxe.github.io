@@ -19,7 +19,7 @@
     }
     #medium{
         display: block;
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
@@ -29,6 +29,6 @@
     }
     #large{
         display: block;
-        font-size: 14px;
+        font-size: 20px;
     }
 }
