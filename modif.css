@@ -8,8 +8,9 @@
     }
     #small{
         display: block;
+    }
+    p{
         font-size: 10px;
-
     }
 }
 
@@ -19,7 +20,9 @@
     }
     #medium{
         display: block;
-        font-size: 15px;
+    }
+    p{
+        font-size: 20px;
     }
 }
 
@@ -29,6 +32,8 @@
     }
     #large{
         display: block;
-        font-size: 20px;
+    }
+    p{
+        font-size: 30px;
     }
 }
