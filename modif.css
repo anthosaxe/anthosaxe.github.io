@@ -41,7 +41,7 @@
     }
     #small{
         display: block;
-        width: 16.665%;
+        width: 66.66%;
     }
     #small h1{
         font-size: 15px;
@@ -51,7 +51,7 @@
     }
     #medium{
         display: block;
-        width: 66.66%;
+        width: 33.33%;
     }
     #medium h1{
         font-size: 25px;
@@ -61,7 +61,7 @@
     }
     #large{
         display: block;
-        width: 16.665%;
+        width: 100%;
     }
     #large h1{
         font-size: 35px;
@@ -84,6 +84,16 @@
     #small p{
         font-size: 10px;
     }
+    #medium{
+        display: block;
+        width: 66.66%;
+    }
+    #medium h1{
+        font-size: 25px;
+    }
+    #medium p{
+        font-size: 20px;
+    }
     #large{
         display: block;
     }
@@ -93,14 +103,9 @@
     #large p{
         font-size: 30px;
     }
-    #large{
-        display: block;
-        width: 33.33%;
-    }
-    #large h1{
-        font-size: 35px;
-    }
-    #large p{
-        font-size: 30px;
+    #container{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
     }
 }
