@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media (max-width: 299px){
+@media (max-width: 499px){
     body{
         background-color: red;
     }
@@ -35,7 +35,7 @@
     }
 }
 
-@media (min-width: 300px) and (max-width: 767px){
+@media (min-width: 500px) and (max-width: 999px){
     body{
         background-color: green;
     }
@@ -71,7 +71,7 @@
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 1000px){
     body{
         background-color: blue;
     }
