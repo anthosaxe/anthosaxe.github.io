@@ -1,3 +1,3 @@
 # test d'une page responsive
 
-[afficher le site](https://responsive.github.io)
+[afficher le site](https://anthosaxe.github.io)
