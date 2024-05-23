@@ -1,0 +1,118 @@
+img {
+    width: 200px;
+}
+
+p {
+    font-size  : 18px;
+    font-family: serif;
+    color      : rgb(255, 255, 255);
+
+}
+
+#img-1 {
+    margin-left: 40px;
+
+}
+
+img {
+    padding: 0%;
+    border : solid 5px red;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0% ;
+}
+
+th,
+td {
+    text-align  : center;
+    border-style: dashed;
+    position    : relative;
+    color       : black;
+    background-color: white;
+}
+
+ul,
+li {
+    color: white;
+}
+
+figcaption {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+q {
+    color: white;
+}
+
+a {
+    color: aqua;
+}
+
+/*td:nth-of-type(odd){
+    background-color: grey;
+}
+
+th:nth-of-type(odd){
+    background-color: grey;
+}*/
+
+table tr td:nth-of-type(odd){
+    background-color: grey;
+}
+
+a:hover {
+    content: attr(title);
+    color  : red;
+
+}
+
+a:visited {
+    color: gray;
+}
+
+header > h1{
+    background-color: yellow;
+}
+
+body {
+    max-width          : 90%;
+    margin             : 0 auto;
+    /*background       : linear-gradient(48deg, #ff5900, #ff0000);
+    background-color   : yellow;
+    */
+    background-image   : url('https://us.123rf.com/450wm/manganganath/manganganath1506/manganganath150600042/41051080-un-vieux-fermier-non-identifi%C3%A9-dans-yangshuo-chine-l-agriculture-est-une-industrie-vitale-en-chine.jpg');
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: bottom right;
+}
+
+blockquote {
+    width           : 50%;
+    margin          : 0 auto;
+    font-size       : 160%;
+    background-color: grey;
+    border-left     : 3px solid firebrick;
+    padding         : 80px 30px 80px 30px;
+}
+
+ul li:first-child{
+    background-image: url('https://i0.wp.com/www.salsavida.com/wp-content/uploads/2023/01/latin-dancers-tango.jpg?fit=2000%2C1418&ssl=1');
+}
+
+ul li:nth-child(2){
+    background-image: url('https://i0.wp.com/www.salsavida.com/wp-content/uploads/2023/01/latin-dancers-tango.jpg?fit=2000%2C1418&ssl=1');
+}
+
+ul li:nth-child(3){
+    background-image: url('https://i0.wp.com/www.salsavida.com/wp-content/uploads/2023/01/latin-dancers-tango.jpg?fit=2000%2C1418&ssl=1');
+}
